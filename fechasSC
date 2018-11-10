@@ -1,0 +1,10 @@
+// fecha actual
+$hoy = date('Y-m-d');
+echo $hoy;
+
+// Aumentar dias
+$fecha = date('Y-m-j');
+$nuevafecha = strtotime ( '+2 day' , strtotime ( $fecha ) ) ;
+$nuevafecha = date ( 'Y-m-j' , $nuevafecha );
+ 
+echo $nuevafecha;
