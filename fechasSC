@@ -8,3 +8,7 @@ $nuevafecha = strtotime ( '+2 day' , strtotime ( $fecha ) ) ;
 $nuevafecha = date ( 'Y-m-j' , $nuevafecha );
  
 echo $nuevafecha;
+
+---- My SQL
+INSERT INTO controlhe (idEmp, fecha, dia, noc )
+VALUES ('954', NOW(), 0, 0)
